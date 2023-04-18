@@ -1,0 +1,36 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+    overflow: hidden;
+    display: flex;
+}
+
+li a {
+    padding: 12px 16px;
+    font-size: x-large;
+    text-align: center;
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+    text-decoration: none;
+    display: block;
+    color: black;
+}
+
+ul li:last-child a {
+    border-right: none;
+}
+
+ul li {
+    float: left;
+    flex: 1 0 auto;
+}
+
+body {
+    border: 2px solid black;
+}
+
+.center {
+    text-align: center;
+}
